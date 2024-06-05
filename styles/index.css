@@ -1,6 +1,7 @@
 @import url(./variables.css);
 @import url(./header.css);
 @import url(./mobileMenu.css);
+@import url(./bunner.css);
 @import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
 @import url('https://fonts.cdnfonts.com/css/futura-pt');
 
@@ -17,7 +18,7 @@ body {
 	align-items: center;
 	background: var(--main-dark);
 	overflow-x: hidden;
-	
+
 	button {
 		cursor: pointer;
 	}

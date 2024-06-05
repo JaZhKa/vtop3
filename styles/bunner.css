@@ -1,0 +1,105 @@
+@import url(./variables.css);
+
+.banner {
+	width: 97vw;
+	height: 114vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	z-index: 10;
+	overflow-y: hidden;
+
+	.title {
+		width: 36rem;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 3rem;
+		z-index: 40;
+
+		h1 {
+			color: var(--clean-white);
+			font-size: 6rem;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 6rem;
+			align-self: stretch;
+
+			span.gambling {
+				color: var(--main);
+			}
+		}
+
+		h4 {
+			color: var(--transp-white-60);
+			font-size: 2rem;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 2rem;
+			align-self: stretch;
+		}
+
+		.title-btn {
+			padding: 1.25rem 4.5rem;
+			border-radius: 3rem;
+			background: var(--main);
+
+			p {
+				color: var(--clean-white);
+				font-size: 1.5rem;
+				font-style: normal;
+				font-weight: 600;
+				line-height: 2rem;
+				text-align: center;
+				text-transform: uppercase;
+			}
+		}
+	}
+	/* 
+	.mask {
+    width: 100%;
+		height: 120%;
+		background: linear-gradient(
+			180deg,
+			rgb(17 9 29 / 40%) 63.64%,
+			rgb(17, 9, 29) 95.45%
+		);
+		position: absolute;
+		z-index: 30;
+	} */
+}
+
+@media screen and (max-width: 960px) {
+	.banner {
+		width: 100vw;
+		height: 150vh;
+		overflow: hidden;
+		flex-direction: column;
+
+		/* .mask {
+      white-space: 100%;
+      height: 100%;
+			bottom: 9%;
+		} */
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.banner {
+		width: 100vw;
+		height: 180vh;
+
+		/* .mask{
+			bottom: -10%;
+		} */
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.banner {
+		width: 100vw;
+		height: 130vh;
+		justify-content: stretch;
+		margin-top: 5rem;
+	}
+}
