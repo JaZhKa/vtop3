@@ -30,9 +30,10 @@
 
 @media screen and (max-width: 960px) {
 	.dotLight-left {
-		height: 100%;
-		top: -20%;
-		left: 40%;
+		height: 40%;
+		top: 10%;
+		left: 50%;
+		overflow-x: hidden;
 	}
 }
 
