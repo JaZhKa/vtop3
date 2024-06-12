@@ -18,7 +18,7 @@
 		background: var(--main-dark);
     
 		.mobile-menu {
-			width: 81%;
+			width: 85%;
 			gap: 1rem;
 			display: flex;
 			flex-direction: column;
@@ -42,7 +42,7 @@
 			gap: 1rem;
 			display: flex;
 			flex-direction: column;
-			width: 90%;
+			width: 85%;
 		}
 
 		.mobile-header-btn.signUp {

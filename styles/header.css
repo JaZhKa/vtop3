@@ -163,7 +163,7 @@ header {
 					transition: 0.2s;
 				}
 
-				.active {
+				&.active {
 					&:before {
 						transform: rotate(45deg);
 						top: 13px;
