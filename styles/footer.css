@@ -73,13 +73,13 @@ footer {
 					width: 2rem;
 					height: 2rem;
 					border-radius: 0.5rem;
-					background: url('./../../image/btns/footer/BG.svg');
+					background: url('./../image/btns/footer/BG.svg');
 					display: flex;
 					align-items: center;
 					justify-content: center;
 
 					&:hover {
-						background: url('./../../image/btns/footer/BGhover.svg');
+						background: url('./../image/btns/footer/BGhover.svg');
 					}
 				}
 			}
