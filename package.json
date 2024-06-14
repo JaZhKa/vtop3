@@ -1,20 +1,23 @@
 {
-  "name": "vrop3",
-  "version": "1.0.0",
-  "description": "Test for VTOP3",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "JaZhKa",
-  "license": "ISC",
-  "type": "module",
-  "devDependencies": {
-    "del": "^7.1.0",
-    "gulp": "^5.0.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-csso": "^4.0.1",
-    "gulp-file-include": "^2.3.0",
-    "gulp-htmlmin": "^5.0.1"
-  }
+	"name": "vrop3",
+	"version": "1.0.0",
+	"description": "Test for VTOP3",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "JaZhKa",
+	"license": "ISC",
+	"devDependencies": {
+		"del": "^7.1.0",
+		"gulp": "^5.0.0",
+		"gulp-autoprefixer": "^9.0.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-csso": "^4.0.1",
+		"gulp-file-include": "^2.3.0",
+		"gulp-htmlmin": "^5.0.1"
+	},
+	"dependencies": {
+		"gulp-css-nbd": "^2.0.0"
+	}
 }
